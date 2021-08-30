@@ -11,6 +11,10 @@ html{
     font-family: Arial, Helvetica, sans-serif;  /* phông chữ */
 }
 
+#main{
+    overflow: hidden; /* phạm vi thẻ main */
+}
+    
 
 
 #header{
@@ -139,7 +143,7 @@ html{
 }
 
 #content .w3-justify{
-    padding-top: 24px;
+    padding: 24px 16px 0 16px;
     font-size: 17px;
     margin: 72px 0 15px 0 ;
     text-align: justify;
@@ -282,7 +286,7 @@ html{
     color: #000;
     position:relative ;
     left: 50%;
-    transform: translateX(-12%)
+    transform: translateX(-16%)
     
 }
 
@@ -303,7 +307,7 @@ html{
     padding-top: 50px;
     font-size: 20px;
     line-height: 1.4;
-
+    padding-left: 40px;
 }
 
 .row.col-hafl2{
@@ -325,7 +329,9 @@ html{
     margin-left: 12%;
 }
 
-
+.col-hafl i{
+    max-width: 100%;
+}
 .col-hafl1 .row1 .col-hafl2{
     float: left;
 }
